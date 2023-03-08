@@ -6,12 +6,12 @@ function Control(){
     if(t>1){
         count ++;
         document.getElementById("cc").innerHTML=count;
-        document.getElementById("sonuc").innerHTML="Increase the number";
+        document.getElementById("sonuc").innerHTML="Increase the number "+t;
 
     }else if(t<i){
         count ++;
         document.getElementById("cc").innerHTML=count;
-        document.getElementById("sonuc").innerHTML="Decrease the number";
+        document.getElementById("sonuc").innerHTML="Decrease the number "+t;
     }else if(t==i){
         count ++;
         document.getElementById("cc").innerHTML=count;
